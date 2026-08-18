@@ -12,3 +12,4 @@ from tableB b
 left join tableA a 
   on b.KojinNo = a.KojinNo 
 where a.KojinNo is null;
+
