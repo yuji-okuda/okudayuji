@@ -1,4 +1,4 @@
-# PyCharm 基本操作ショートカット
+# PyCharm 基本操作ショートカット1
 
 ## コード整形（Reformat Code）
 - **Cmd + Opt + L**
