@@ -13,3 +13,6 @@ set a.コード = (
     and b.カラム2 = a.カラム2
     and b.カラム3 = a.カラム3
 );
+
+※　tableB　に一致する行が複数あった場合、エラーが発生する。
+ORA-01427: single-row subquery returns more than one row
