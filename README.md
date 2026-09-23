@@ -1,10 +1,11 @@
 # オクダユウジ
-広島在住 / Pythonバックエンド志向 / AWS学習中  
+広島在住 / Pythonバックエンド志向 / Python学習中  
 フルリモートで働けるエンジニアを目指して活動中。
 
 ## 技術スタック
-- Python / FastAPI / Django
+- Python
+- Oracle SQL（業務経験あり）
 
 ## 取り組み
-- 毎日更新のTIL
-- FastAPIでAPI開発
+- 学習記録（TIL）を毎日更新
+- Pythonバックエンド開発の基礎学習を継続
