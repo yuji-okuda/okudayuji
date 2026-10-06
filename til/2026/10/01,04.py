@@ -15,9 +15,16 @@ print(now.second) # 秒
 ## 今日の日付の取得
 
 from datetime import date
- 
 today = date.today()
  
 print(today)
-
 2026-10-01
+
+
+## 特定の日付を作成
+
+from datetime import datetime
+birthday = datetime(1990, 5, 10)
+ 
+print(birthday)
+1990-05-10 00:00:00
