@@ -28,3 +28,11 @@ birthday = datetime(1990, 5, 10)
  
 print(birthday)
 1990-05-10 00:00:00
+
+## 日付のフォーマット変換
+
+from datetime import datetime
+now = datetime.now()
+ 
+print(now.strftime("%Y/%m/%d"))
+2026/10/01
