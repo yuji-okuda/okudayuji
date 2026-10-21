@@ -17,3 +17,15 @@ def greet(name):
 
 greet(“ヒロシ”)
 print(greet.__doc__)　←　greet関数のドッグストリングを表示させる
+
+2、モジュールに使う場合 
+common.py
+“””ここにモジュールのドッグストリングを記載”””
+
+↑ 別の.pyにて、common.pyのモジュールを常時させる場合、2通りあり。
+import common
+
+help(common)
+もしくは
+print(common.__doc__)
+print(common.greet__doc__)
