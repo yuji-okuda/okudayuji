@@ -14,3 +14,12 @@ String message = category + "：" + productName;
 System.out.println(message);
 
 家電：テレビ
+
+# 数値と組み合わせる
+
+String productName = "キーボード";
+int price = 3980;
+
+System.out.println(productName + "の価格は" + price + "円です");
+
+キーボードの価格は3980円です
