@@ -16,3 +16,16 @@ python
 message = "I like coffee"
 print(message.replace("coffee", "tea"))
 I like tea
+
+## zfill()
+文字列の先頭を0で埋める関数
+number = "25"
+print(number.zfill(5))
+00025
+
+## find()
+指定した文字列の位置を取得する関数　※カウントは0から開始する
+text = "python programming"
+print(text.find("programming"))
+7
+※存在しない場合　-1
