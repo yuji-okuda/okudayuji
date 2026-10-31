@@ -29,3 +29,9 @@ text = "python programming"
 print(text.find("programming"))
 7
 ※存在しない場合　-1
+
+## index()
+text = "python programming"
+print(text.index("programming"))
+7
+※存在しない場合　ValueError
