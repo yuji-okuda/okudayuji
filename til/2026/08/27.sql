@@ -9,19 +9,19 @@
 - マスタデータの整合性が崩れる
 - システム間連携でエラーが発生する
 
-以下は、`email` が重複しているレコードを検出する基本的なSQL。
+`email` が重複しているレコードを検出する基本的なSQL。
 
-```sql
 SELECT email, COUNT(*) AS cnt
 FROM users
 GROUP BY email
 HAVING COUNT(*) > 1;
+
 解説
-GROUP BY email  
+1.GROUP BY email  
 同じメールアドレスごとにレコードをまとめる。
 
-COUNT()*
+2.COUNT(*)
 そのメールアドレスが何件あるかを数える。
 
-HAVING COUNT() > 1*
+3.HAVING COUNT() > 1*
 「2件以上ある＝重複している」メールアドレスだけを抽出する。
