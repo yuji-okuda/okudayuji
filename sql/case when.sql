@@ -1,4 +1,4 @@
-# CASE WHEN
+# case when
 
 テーブルA
 年度　｜　受付日
