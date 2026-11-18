@@ -27,3 +27,9 @@ boolean boxZ = boxA == boxB;
 System.out.println(boxZ);
 
 - false
+
+# 論理演算子
+
+ && かつ
+ || または
+ 
