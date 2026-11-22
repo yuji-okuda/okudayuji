@@ -19,7 +19,7 @@ final 型名　定数名　＝　初期値（固定値）；
 
 ・整数（int）
 ・小数点数（double）
-・文字（Srring）
+・文字（String）
 ・論理値（boolean）
   
 # ネーミング辞書
