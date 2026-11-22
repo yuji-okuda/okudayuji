@@ -9,3 +9,7 @@
 　String[0] ='犬';
 　String[1] ='猫';
 　String[2] ='ハムスター';
+
+## 配列宣言 と同時に 複数の要素を初期化 ※以下どちらでも初期化が可能
+　String[] animals = new String[]{'犬','猫','ハムスター'};
+　String[] animals = {'犬','猫','ハムスター'};
