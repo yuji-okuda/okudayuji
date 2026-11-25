@@ -23,3 +23,9 @@
 　int y = (int)x 　・・・　（変換したい型）変換したい変数名
 
 ## 文字↔︎整数
+ integer.parselnt
+
+
+## 整数↔︎文字
+ String.valueOf
+          
