@@ -22,10 +22,15 @@
 　long x = 10;
 　int y = (int)x 　・・・　（変換したい型）変換したい変数名
 
-## 文字↔︎整数
+## 文字→整数 の型変換
  integer.parselnt
 
+ String = "10";
+ int y = integer.parselnt(x);
 
-## 整数↔︎文字
+## 整数→文字 の型変換
  String.valueOf
           
+ int x = 10;
+ String y = String.valueOf(x);
+
